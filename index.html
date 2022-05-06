@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>trillo &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt="homelogo" class="logo" />
+        <form action="#" class="search">
+          <input type="text" class="search__input" placeholder="Search Venue" />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">11</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-bell"></use>
+            </svg>
+            <span class="user-nav__notification">3</span>
+          </div>
+          <div class="user-nav__user">
+            <img src="img/user-3.jpg" alt="" class="user-nav__user-photo" />
+            <span class="user-nav__user-name">Nacho</span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-drink"></use>
+                </svg>
+                <span>Bars</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-mask"></use>
+                </svg>
+                <span>Theatres</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-coffee"></use>
+                </svg>
+                <span>Cooffees</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-open-book"></use>
+                </svg>
+                <span>Libraries</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-tree"></use>
+                </svg>
+                <span>Parks</span>
+              </a>
+            </li>
+          </ul>
+          <p class="legal">Made by Avispa. ©2022</p>
+        </nav>
+        <main class="venue-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="img/fauna-1.jpg"
+                alt="fauna-photo"
+                class="gallery__photo"
+              />
+            </figure>
+
+            <figure class="gallery__item">
+              <img
+                src="img/fauna-3.jpg"
+                alt="fauna-photo"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/fauna-2.jpg"
+                alt="fauna-photo"
+                class="gallery__photo"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/fauna-4.jpg"
+                alt="fauna-photo"
+                class="gallery__photo"
+              />
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">Fauna - cafe & vivero</h1>
+            <div class="overview__stars">
+              <svg class="overview__icon-stars">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-stars">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-stars">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-stars">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="overview__icon-stars">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Palermo Soho, Buenos Aires</button>
+            </div>
+            <div class="overview__rating">
+              <div class="overview__rating-number">8.6</div>
+              <div class="overview__rating-vote">300 votes</div>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="venue__description">
+              <p class="paragraph">
+                Cuando programes tu viaje, no te olvides de Palermo Soho y de
+                elegir un sitio donde comer: esta cafetería está justo al lado
+                de esa atracción turística. Los cocineros de Fauna Cafe & Flora
+                se esfuerzan al máximo para dar a sus visitantes un bien
+                trabajado guiso. Saborea su bien preparado pastel de chocolate.
+                Muchos críticos destacan que puedes tomarte un espectacular café
+                en este lugar.
+              </p>
+              <ul class="features">
+                <li class="features__item">Pet friendly</li>
+                <li class="features__item">Apto vegan</li>
+                <li class="features__item">Wifi</li>
+                <li class="features__item">Indoor & Outdoor</li>
+                <li class="features__item">Familia</li>
+                <li class="features__item">Amigos</li>
+                <li class="features__item">Take Away</li>
+                <li class="features__item">Pet friendly</li>
+              </ul>
+              <div class="recommend">
+                <p class="recommend__count">
+                  Brian and other 3 friends recommend this
+                </p>
+                <div class="recommend__friends">
+                  <img
+                    src="img/user-1.jpg"
+                    alt="user"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-2.jpg"
+                    alt="user"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-3.jpg"
+                    alt="user"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-4.jpg"
+                    alt="user"
+                    class="recommend__photo"
+                  />
+                  <img
+                    src="img/user-6.jpg"
+                    alt="user"
+                    class="recommend__photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="user__reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  "Me encantó la integración de plantas y la salida a la calle.
+                  El árbol en el medio... la comida rica. Quizás agregaría más
+                  variantes saladas, pero lo que comí: muy rico."
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-5.jpg"
+                    alt="user-photo"
+                    class="review__user-photo"
+                  />
+                  <div class="review__user__box">
+                    <p class="review__user-name">Nick Thomas</p>
+                    <p class="review__user-date">05 Abr, 2022</p>
+                  </div>
+                  <div class="review__rating">7.8</div>
+                </figcaption>
+              </figure>
+              <figure class="review">
+                <blockquote class="review__text">
+                  "Son pet friendly, me agradan. El café muy rico al igual que
+                  el roll de canela y el sandwich que pedimos muy abundante. Un
+                  sitio recomendable!"
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/user-2.jpg"
+                    alt="user-photo"
+                    class="review__user-photo"
+                  />
+                  <div class="review__user__box">
+                    <p class="review__user-name">Sofi Lee</p>
+                    <p class="review__user-date">27 Feb, 2022</p>
+                  </div>
+                  <div class="review__rating">7.8</div>
+                </figcaption>
+              </figure>
+              <button class="btn-inline">Show All<span>&#62;</span></button>
+            </div>
+          </div>
+          <div class="cta">
+            <p class="cta__text">Consultá disponiblidad, horarios u eventos</p>
+            <button class="cta__btn">
+              <span class="cta__btn-visible">Reservar</span>
+              <span class="cta__btn-invisible">ir a la Web</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

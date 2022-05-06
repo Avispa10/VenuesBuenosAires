@@ -1,0 +1,90 @@
+.container {
+  max-width: 120rem;
+  background-color: var(--Grey-light-1);
+  margin: 8rem auto;
+  box-shadow: var(--shadow-dark);
+
+  @media screen and (max-width: $bp-largest) {
+    margin: 0;
+  }
+}
+
+.header {
+  height: 8rem;
+  background-color: #fff;
+  border-bottom: 0.1rem solid var(--Grey-light-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (max-width: $bp-smallest) {
+    flex-wrap: wrap;
+    height: 12rem;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+  }
+}
+
+.content {
+  display: flex;
+
+  @media screen and (max-width: $bp-medium) {
+    flex-direction: column;
+  }
+}
+
+.sidebar {
+  background-color: var(--Grey-dark-1);
+  flex: 0 0 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.venue-view {
+  //go all width of the container.
+  flex: 1;
+  //TEST
+}
+
+.detail {
+  font-size: 1.4rem;
+  display: flex;
+  padding: 3rem;
+  background-color: var(--Grey-light-2);
+  padding: 2rem;
+
+  @media screen and (max-width: $bp-medium) {
+    padding: 1.5rem;
+  }
+
+  @media screen and (max-width: $bp-small) {
+    flex-direction: column;
+  }
+}
+
+.venue__description {
+  flex: 0 0 70%;
+  background-color: var(--Grey-light-1);
+  box-shadow: var(--shadow-dark);
+  padding: 2rem;
+  margin-right: 2rem;
+
+  @media screen and (max-width: $bp-medium) {
+    padding: 1.5rem;
+  }
+
+  @media screen and (max-width: $bp-small) {
+    margin-right: 0;
+  }
+}
+
+.user__reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (max-width: $bp-small) {
+    margin-top: 1rem;
+  }
+}
